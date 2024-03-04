@@ -81,10 +81,12 @@ DATABASES = {
         #'ENGINE': 'django.db.backends.sqlite3',
         #'NAME': BASE_DIR / 'db.sqlite3',
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'pbedata',
+        'NAME': 'railway',
         'USER':'postgres',
-        'PASSWORD':'admin',
-        'HOST':'localhost', 
+        'PASSWORD':'c6Af2*AeG55fDEAD-*5f2f6afB61BAb4',
+        'HOST':'viaduct.proxy.rlwy.net',
+         'PORT': 23368,
+
     }
 }
 
@@ -138,7 +140,7 @@ JAZZMIN_SETTINGS = {
     "site_header": "P&BEntrepprise",
     "site_brand": "P&BEntreprise",
     #"site_logo": "assetts/img/icon.png",
-    "copyright" : "P&BEntreprise 2023", 
+    "copyright" : "P&BEntreprise 2023",
     "topmenu_links": [
         # Url that gets reversed (Permissions can be added)
         {"name": "Mon Site", "url": "home", "permissions": ["userauths.User"]},
